@@ -1,0 +1,45 @@
+h1,p {text-align: center;}
+
+.in{background-color: #cecaca;
+    border-radius: 3rem;}
+
+body {
+    align-items: center;
+    text-align: center;
+    }
+p {
+    font-family : 'lato', sans-serif;
+     }
+
+.table{
+    text-align: center;
+}   
+
+.create{
+    margin-right: 30px;
+}
+.add{
+    margin-top: 0.4rem;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.addtask{
+    align-items: center;
+}
+.but {
+    margin: 3px;
+    gap:3px;
+}
+.nabtext{
+    text-align: center;
+    gap: 4px;
+}
+
+.foot{
+    text-decoration: underline;
+    text-transform:uppercase;
+    text-decoration-color: cadetblue;
+    text-align: center;
+    margin-top: 4rem;
+}
+/*ver que onda esto */
