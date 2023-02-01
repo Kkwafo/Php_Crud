@@ -19,7 +19,7 @@
             <a href="index.php" class= "navbar-brand " > To Do List (PHP) </a>
             
         </div> 
-        <a class="btn btn-light create" href="task.php?=" value="User"> Select Your Task </a>
+       
         <a class="btn btn-light create" href="createT.php?createT=" value="createT" > Create Table</a>
      </nav>
 </head>

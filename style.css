@@ -43,8 +43,16 @@ p {
     margin-top: 4rem;
 }
 
-
+select{
+    margin: 5px;
+}
 .top{
     margin-top: 6rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
 }
 /*ver que onda esto */

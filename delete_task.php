@@ -1,7 +1,7 @@
 <?php include("db.php");
 
 if(isset($_GET[("id")])){
-
+//ver que el FROM sea una variable que se modifique asi genero esto como controlador
     $id = $_GET[('id')];
     $query = "DELETE FROM todoList WHERE id = '$id'";
 }

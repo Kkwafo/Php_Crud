@@ -1,11 +1,7 @@
 <?php include("db.php");?>
-
-
 <?php include("includes/header.php");?>
-    <h1> To Do List </h1>
-    <p> This proyects is a example of CRUD whit PHP using MySQL, also we use bootstrap</p>
 
-    
+<h1> Work </h1>
 <div class= "container p-4 in"> 
     <div class = "row" >
        <div class= "col md-4 contup" >
@@ -19,16 +15,7 @@
             <div class="card card-body">
                 <form action="save_task.php" method="POST"> 
                     <div class="form-group"> 
-                    
-                        <ul>
-                            <li><a value="1" href="home.php?=">Go to Home Tasks</a> </li>
-                        
-                            <li><a value="2" href="work.php?=" >Go to Work Tasks</a> </li>
 
-                            <li><a value="3" href="healt.php?=" >Go to Healt Taks</a></li>
-        </ul>
-                        <?php //quiero que se muestren distintas tablas dependiendo la eleccion?>
-                    </select>
                         <input type="text"
                             name="task"
                             class="form-control"
@@ -50,7 +37,7 @@
                     </tr>                       
                 </thead>
                 <tbody>
-                    <?php $query= "SELECT * FROM todoList";
+                    <?php $query= "SELECT * FROM workList";
                     $result_task = mysqli_query($conn, $query);
                     while ($row = mysqli_fetch_array($result_task)) { ?>
                     <tr>
@@ -75,6 +62,4 @@
 </div>
 
 
-    <?php include("includes/footer.php")?>
-
-
+<?php include("includes/footer.php")?>

@@ -1,7 +1,7 @@
 <?php include("db.php");
 //si $_GET id esta definido realiza la query, si el resultado es true me devuelve las variables haciendo fetch desde la base de datos//
 if(isset($_GET[('id')])){
-
+//ver que luego del FROM se haga variable asi modifico todos con esta misma funcion
     $id = $_GET[('id')];
     $query = "SELECT * FROM todoList WHERE id = $id";
 

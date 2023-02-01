@@ -7,6 +7,7 @@ include("includes/header.php");
 if(isset($_GET[('createT')])){
     $query= "CREATE table if not exists todoList (
         id Int auto_increment unique primary key,
+        areaname varchar(255),
         title varchar(255),
         description text,
         create_at  timestamp
