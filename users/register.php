@@ -22,6 +22,7 @@
             </div>";
         } else {
             echo header("Location: dashboard.php");
+            "<h1> Successfully creation, Logg in! </h1>";
         }}
     
 ?>
