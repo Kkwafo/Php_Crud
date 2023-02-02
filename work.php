@@ -2,6 +2,7 @@
 <?php include("includes/header.php");?>
 
 <h1> Work </h1>
+<a href="/users/dashboard.php" class="btn btn-dark bg-dark"> Go Back to Dashboard! </a>
 <?php include("includes/topTemplate.php"); ?>
                     <?php $query= "SELECT * FROM workList";
                     $result_task = mysqli_query($conn, $query);

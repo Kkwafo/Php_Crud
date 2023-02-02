@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS `users` (
  `password` varchar(50) NOT NULL,
  `create_datetime` datetime NOT NULL,
  PRIMARY KEY (`id`)
-);
+);  

@@ -58,4 +58,3 @@ if(isset($_POST[('update')])){
 </div>
      
 
-<?php include("includes/footer.php");?>

@@ -69,4 +69,9 @@ ul{
 .contenedor.p {
     font-size: medium;
 }
+
+.dashnav{
+    width: max-content;
+}
+
 /*ver que onda esto */

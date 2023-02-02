@@ -1,6 +1,7 @@
 <?php include("db.php");?>
 <?php include("includes/header.php");?>
 <h1> Home </h1>
+<a href="/users/dashboard.php" class="btn btn-dark bg-dark"> Go Back to Dashboard! </a>
 <?php include("includes/topTemplate.php"); ?>
                     <?php $query= "SELECT * FROM homeList";
                     $result_task = mysqli_query($conn, $query);
@@ -22,4 +23,3 @@
 
 
 <?php include("includes/bopTemplate.php"); ?>
-<?php include("includes/footer.php")?>

@@ -6,7 +6,7 @@ if(isset($_GET[("id")])){
     $query = "DELETE FROM todoList WHERE id = '$id'";
 }
     $result = mysqli_query($conn, $query);
-    if(!result){
+    if(!$result){
         die("Query Failed");
     }
     $_SESSION["message"] = "Task Delete successfully";

@@ -1,6 +1,7 @@
 <?php include("db.php");?>
 <?php include("includes/header.php");?>
 <h1> Healt </h1>
+<a href="/users/dashboard.php" class="btn btn-dark bg-dark"> Go Back to Dashboard! </a>
 <?php include("includes/topTemplate.php"); ?>
 
     <?php $query= "SELECT * FROM healtList";
@@ -20,4 +21,3 @@
     </tr>
     <?php } ?>
 <?php include("includes/bopTemplate.php"); ?>
-<?php include("includes/footer.php")?>
