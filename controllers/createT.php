@@ -1,6 +1,6 @@
 <?php 
-include("db.php");
-include("includes/header.php");
+include("/db.php");
+include("../includes/header.php");
 
 //Crear tabla
  
