@@ -5,9 +5,9 @@ include("../includes/header.php");
 //Crear tabla
  
 if(isset($_GET[('createT')])){
-  $name= ["homeList", "workList", "healtList"];
+  $name= ["homeList", "workList", "healtList", "todoList"];
   var_dump($name);
-  for ($i = 0; $i <= 3; $i++) {
+  for ($i = 0; $i <= 4; $i++) {
     $query= "CREATE table if not exists $name[$i](
       id Int auto_increment unique primary key,
       title varchar(255),
@@ -27,7 +27,7 @@ else
 }
 
 }
-//header("Location: index.php");
+//header("Location: todolist.php");
 echo $result;
 
 ?>

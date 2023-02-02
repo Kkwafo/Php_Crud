@@ -8,12 +8,12 @@ $result = mysqli_query($conn, $query);
 if ($result == 1){ 
     $_SESSION["message"] = "Task save successfully";
     $_SESSION["message_type"] = "success";
-    header("Location: index.php");
+    header("Location: todolist.php");
     }
     else {
         $_SESSION["message"] = "Error! Check if the Table was Created Press the Botton on the  TOP!"; 
         $_SESSION["message_type"] = "info";
-        header("Location: index.php");
+        header("Location: todolist.php");
     };
 exit;
 

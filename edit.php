@@ -23,7 +23,7 @@ if(isset($_POST[('update')])){
 
     $result = mysqli_query($conn, $query);
  
-    header("Location: index.php");
+    header("Location: todolist.php");
     $_SESSION["message"]= "Your task was edited whit success";
     $_SESSION["message_type"] = "warning";
     slepp(1);

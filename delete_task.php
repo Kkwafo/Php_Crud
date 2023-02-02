@@ -12,7 +12,7 @@ if(isset($_GET[("id")])){
     $_SESSION["message"] = "Task Delete successfully";
     $_SESSION["message_type"]= "danger";
 
-    header("Location: index.php");
+    header("Location: todolist.php");
 
    // echo(isset($_GET["id"]));
     //var_dump(isset($id));

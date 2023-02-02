@@ -11,6 +11,10 @@ p {
     font-family : 'lato', sans-serif;
      }
 
+     a{
+        text-align: center;
+     }
+
 .table{
     text-align: center;
 }   
@@ -54,5 +58,15 @@ ul{
     list-style-type: none;
     padding: 0; 
     margin: 0; 
+}
+
+.contenedor{
+ text-align: center;
+ align-content: center;
+ display: flex;
+ 
+}
+.contenedor.p {
+    font-size: medium;
 }
 /*ver que onda esto */
