@@ -20,7 +20,8 @@
             
         </div> 
        
-        <a class="btn btn-light create" href="./../createT.php?createT=" value="createT" > Create Table</a>
+      <a class="btn btn-light create" href="./../createT.php?createT=" value="createT" > Create Table</a> 
+
      </nav>
 </head>
 <body>

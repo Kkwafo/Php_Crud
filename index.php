@@ -5,7 +5,7 @@
     <div class = "container"><h1> To Do List </h1>
     <p> This proyects is a example of CRUD whit PHP using MySQL, also we use bootstrap</p>
     <p> Make your acount then enjoy the To do List App </p>
-    <h3 style="color:red;"> At the moment Only Demo is Working, But u can make your Acoount and we will send you a mail when the page is done.   </h3>
+    <h3 style="color:red;"> At the moment Only Demo is Working, But u can register and we will send you a mail when the page is done.   </h3>
     <div>
 
 <div class = "contenedor container">
