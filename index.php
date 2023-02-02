@@ -21,11 +21,20 @@
                     <div class="form-group"> 
                     
                         <ul>
-                            <li><a value="1" href="home.php?=">Go to Home Tasks</a> </li>
-                        
-                            <li><a value="2" href="work.php?=" >Go to Work Tasks</a> </li>
+                             <?php
+                                $dbArray = ["Home", "Work", "Healt"];?>
+                                <select>;
+                                <?php foreach ($dbArray as $db) { ?>
+                                        <option value= <?php $db?>> <?= $db ?></option>;
+                                        <?php  }?>
+                                </select>; 
+                                
 
-                            <li><a value="3" href="healt.php?=" >Go to Healt Taks</a></li>
+                            <li><a value="db" name = "selectHome" href="home.php?=">Go to Home Tasks</a> </li>
+                        
+                            <li><a value="db" name = "selectWork" href="work.php?=" >Go to Work Tasks</a> </li>
+
+                            <li><a value="db" name = "selectHealt" href="healt.php?=" >Go to Healt Taks</a></li>
         </ul>
                         <?php //quiero que se muestren distintas tablas dependiendo la eleccion?>
                     </select>
