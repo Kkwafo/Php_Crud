@@ -8,8 +8,5 @@ $databasename = "php_todoList";
 //inicio session para usar $_SESSION para pasar variables de manera global en el script.
 session_start();
 $conn = new mysqli($servername, $username, $password, $databasename);
-
-
-
 ?> 
 
